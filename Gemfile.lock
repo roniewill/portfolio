@@ -24,6 +24,7 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    active_skin (0.0.12)
     activeadmin (1.1.0)
       arbre (>= 1.1.1)
       coffee-rails
@@ -237,6 +238,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_skin
   activeadmin
   byebug
   capybara (~> 2.13)
