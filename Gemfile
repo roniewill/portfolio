@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.2'
 gem 'activeadmin'
 gem 'active_skin'
+gem 'paperclip', '~> 5.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
