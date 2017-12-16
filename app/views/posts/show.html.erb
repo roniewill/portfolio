@@ -1,0 +1,41 @@
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4"><%= @post.title %>
+        <small>Item Subheading</small>
+      </h1>
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-8">
+          <%= image_tag @post.image, class: 'img-fluid' %>
+        </div>
+
+        <div class="col-md-4">
+          <h3 class="my-3">Project description</h3>
+          <p><%= @post.body %></p>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+      <!-- Related Projects Row -->
+      <h3 class="my-4">Related Projects</h3>
+
+      <div class="row">
+
+        <% @posts.each do |post| %>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <%= link_to post_path(post) do %>
+              <%= image_tag post.image, class: 'img-fluid portfolio-item' %>
+            <% end %>
+          </div>
+        <% end %>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
