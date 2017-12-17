@@ -1,7 +1,7 @@
 # PORTFOLIO SYSTEM
 
 ## About
-Little system for register your projects jobs an portfolio
+* System for register your projects  portfolio
 
 ## Stack
 * Rails 5.1.4
