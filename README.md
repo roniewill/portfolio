@@ -1,6 +1,6 @@
 # PORTFOLIO SYSTEM
 ## STACK
-* Ruby 5.1
+* Rails 5.1.4
 * devise => 4.2
 * activeadmin
 * active_skin
