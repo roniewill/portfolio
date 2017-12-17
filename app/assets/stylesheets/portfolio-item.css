@@ -8,6 +8,10 @@ body {
   padding-top: 54px;
 }
 
+.portifolio-item{
+  padding-bottom: 10px;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
