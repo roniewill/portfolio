@@ -1,4 +1,8 @@
 # PORTFOLIO SYSTEM
+
+## About
+Little system for register your projects jobs an portfolio
+
 ## Stack
 * Rails 5.1.4
 * devise => 4.2
